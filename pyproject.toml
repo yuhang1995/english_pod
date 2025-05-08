@@ -1,0 +1,15 @@
+[tool.poetry]
+name = "english-pod"
+version = "0.1.0"
+description = ""
+authors = ["yuhang <360757187@qq.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.12"
+ebooklib = "^0.19"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
